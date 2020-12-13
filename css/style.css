@@ -59,6 +59,10 @@ p {
     width: 500px;
   }
 
+  .banner {
+    padding: 200px 16px;
+  }
+
   .cards-flex {
     flex-wrap: wrap;
     flex-basis: 100%;
@@ -76,10 +80,18 @@ p {
     width: 300px;
   }
 
+  .banner {
+    padding: 200px 16px;
+  }
+
   .cards-flex {
     flex-wrap: wrap;
     flex-basis: 100%;
     width: 350px;
+  }
+
+  .banner {
+    padding: 200px 16px;
   }
 
   .card {
