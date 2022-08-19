@@ -757,6 +757,9 @@ pre code {
   background-color: transparent;
   border-radius: 0;
 }
+.col-md-4 {
+  margin-bottom: 28px !important;
+}
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll;
@@ -1229,8 +1232,15 @@ pre code {
   .col-md-3 {
     width: 25%;
   }
-  .col-md-4 {
+  .col-md-4-projects {
     width: 33.33333%;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .col-md-4 a {
+    margin-top: auto;
   }
   .col-md-5 {
     width: 41.66667%;
